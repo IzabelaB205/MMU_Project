@@ -61,12 +61,12 @@ public class CacheUnitModel extends Model{
 
     @Override
     public String getStatisticRequest() {
-        return """
-                { "headers":
-                     {"action": "STATISTIC"},
-                 "body":
-                     {}
-                }""";
+        return " {\n " +
+                "\"headers\":\n" +
+                "{\"action\": \"STATISTIC\"},\n" +
+                "\"body\":\n" +
+                "{}\n" +
+                "}";
     }
 
     private String readFileAsString(String path) {
