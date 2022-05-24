@@ -1,8 +1,8 @@
-package main.java.memory;
+package memory;
 
-import main.java.Algorithm.ICacheAlgorithm;
-import main.java.dao.IDao;
-import main.java.dm.DataModel;
+import Algorithm.ICacheAlgorithm;
+import dao.IDao;
+import dm.DataModel;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -58,5 +58,9 @@ public class CacheUnit<T> {
         return (DataModel<T>[]) dataModelList.toArray();
     }
 
-
+    public void removeDataModels(Long[] ids) {
+        for(long id : ids) {
+            cacheAlgorithm.removeElement(id);
+        }
+    }
 }

@@ -1,4 +1,4 @@
-package main.java.dm;
+package dm;
 
 import java.io.Serializable;
 

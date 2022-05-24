@@ -1,4 +1,4 @@
-package main.java.Algorithm;
+package Algorithm;
 
 import java.util.HashMap;
 import java.util.LinkedList;
