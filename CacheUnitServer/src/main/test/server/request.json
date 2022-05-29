@@ -1,0 +1,19 @@
+{
+  "header": {
+    "action": "UPDATE"
+  },
+  "body": [
+    {
+      "id": 1,
+      "content": "Anna"
+    },
+    {
+      "id": 2,
+      "content": "Danna"
+    },
+    {
+      "id": 3,
+      "content": "Banana"
+    }
+  ]
+}
