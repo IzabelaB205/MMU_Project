@@ -1,10 +1,11 @@
-package java.util;
+package java.utillity;
 
 import java.server.IObserverServer;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class CLI implements Runnable, IObservableCLI{
     private final BufferedReader inputReader;
