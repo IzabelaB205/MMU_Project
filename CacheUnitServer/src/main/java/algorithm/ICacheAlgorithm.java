@@ -1,4 +1,4 @@
-package Algorithm;
+package java.algorithm;
 
 public interface ICacheAlgorithm <K,V>{
     V putElement(K key, V value);

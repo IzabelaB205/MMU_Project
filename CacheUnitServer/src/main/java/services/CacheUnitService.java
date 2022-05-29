@@ -1,11 +1,11 @@
-package services;
+package java.services;
 
-import Algorithm.ICacheAlgorithm;
-import Algorithm.LRUCacheAlgorithm;
-import dao.DaoFileImpl;
-import dao.IDao;
-import dm.DataModel;
-import memory.CacheUnit;
+import java.algorithm.ICacheAlgorithm;
+import java.algorithm.LRUCacheAlgorithm;
+import java.dao.DaoFileImpl;
+import java.dao.IDao;
+import java.dm.DataModel;
+import java.memory.CacheUnit;
 
 import java.io.Serializable;
 

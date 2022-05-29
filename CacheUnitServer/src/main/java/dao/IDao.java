@@ -1,4 +1,4 @@
-package dao;
+package java.dao;
 
 import java.io.IOException;
 import java.io.Serializable;

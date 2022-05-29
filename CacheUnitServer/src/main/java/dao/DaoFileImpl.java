@@ -1,6 +1,6 @@
-package dao;
+package java.dao;
 
-import dm.DataModel;
+import java.dm.DataModel;
 
 import java.io.*;
 import java.util.HashMap;

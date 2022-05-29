@@ -1,6 +1,6 @@
-package util;
+package java.util;
 
-import server.IObserverServer;
+import java.server.IObserverServer;
 
 import java.io.*;
 import java.util.ArrayList;

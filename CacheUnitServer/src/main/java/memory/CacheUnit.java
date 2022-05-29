@@ -1,8 +1,8 @@
-package memory;
+package java.memory;
 
-import Algorithm.ICacheAlgorithm;
-import dao.IDao;
-import dm.DataModel;
+import java.algorithm.ICacheAlgorithm;
+import java.dao.IDao;
+import java.dm.DataModel;
 
 import java.io.IOException;
 import java.io.Serializable;

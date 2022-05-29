@@ -1,6 +1,6 @@
-package util;
+package java.util;
 
-import server.IObserverServer;
+import java.server.IObserverServer;
 
 public interface IObservableCLI {
     void add(IObserverServer observer);

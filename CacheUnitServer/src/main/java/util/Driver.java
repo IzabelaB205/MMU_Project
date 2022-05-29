@@ -1,6 +1,6 @@
-package util;
+package java.util;
 
-import server.Server;
+import java.server.Server;
 
 public class Driver {
 
